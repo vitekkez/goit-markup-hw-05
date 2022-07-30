@@ -104,6 +104,18 @@ img {
   margin-left: 50px;
 }
 
+.general::after {
+  display: block;
+  content: "";
+
+  height: 4px;
+  padding-bottom: -4px;
+  /* outline: 1px solid red; */
+
+  background-color: var(--accent-color);
+  border-radius: 2px;
+}
+
 .site-nav .link {
   display: block;
   padding-top: 32px;
