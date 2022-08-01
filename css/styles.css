@@ -128,6 +128,9 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -155,16 +158,19 @@ img {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
   align-items: center;
-}
-
-.contact-up-icon {
-  margin-right: 10px;
-  fill: currentColor;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact-up .link:hover,
 .contact-up .link:focus {
   color: var(--accent-color);
+}
+
+.contact-up-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* hero { */
@@ -219,6 +225,10 @@ img {
   letter-spacing: 0.06em;
 
   cursor: pointer;
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
@@ -377,6 +387,10 @@ img {
   align-items: center;
   justify-content: center;
   color: #afb1b8;
+  transition-property: color;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-social-icon {
   fill: currentColor;
@@ -411,6 +425,10 @@ img {
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
+  transition-property: border;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link > .link-icon {
