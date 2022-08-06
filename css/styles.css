@@ -477,8 +477,29 @@ img {
 
 .aside-subscription {
 	display: flex;
-	align-items: flex-end;
 	margin-left: 93px;
+}
+
+.aside-subscrition.link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 12px;
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
+	width: 200px;
+	height: 50px;
+	border-radius: 4px;
+
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.aside-subscrition::after {
 }
 
 .aside .team-social-link {
